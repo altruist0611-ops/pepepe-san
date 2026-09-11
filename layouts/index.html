@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="hero">
+  <p class="eyebrow">障害福祉サービス開業ガイド</p>
+  <h1>{{ .Site.Title }}</h1>
+  <p class="hero-lede">{{ .Site.Params.description }}</p>
+</section>
+
+<section class="poststream">
+  <h2 class="sectiontitle">記事一覧</h2>
+  <ol class="posts">
+    {{ range where .Site.RegularPages "Section" "posts" }}
+    <li class="postrow">
+      <a href="{{ .RelPermalink }}">
+        <span class="postdate">{{ .Date.Format "2006.01.02" }}</span>
+        <span class="posttitle">{{ .Title }}</span>
+        <span class="postexcerpt">{{ .Description }}</span>
+      </a>
+    </li>
+    {{ end }}
+  </ol>
+</section>
+{{ end }}
