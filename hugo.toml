@@ -4,8 +4,7 @@ title = "開業台帳"
 
 [params]
   description = "訪問系障害福祉サービス（居宅介護・重度訪問介護・同行援護・行動援護）の指定申請と運営を、行政書士の実務目線で解説するブログ。"
-  author = "有田"
-  authorTitle = "行政書士"
+  author = "ぺーさん"
 
 [permalinks]
   posts = "/blog/:slug/"
