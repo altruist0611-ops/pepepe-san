@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="poststream">
+  <h2 class="sectiontitle">{{ .Title }}</h2>
+  <ol class="posts">
+    {{ range .Pages }}
+    <li class="postrow">
+      <a href="{{ .RelPermalink }}">
+        <span class="postdate">{{ .Date.Format "2006.01.02" }}</span>
+        <span class="posttitle">{{ .Title }}</span>
+        <span class="postexcerpt">{{ .Description }}</span>
+      </a>
+    </li>
+    {{ end }}
+  </ol>
+</section>
+{{ end }}
