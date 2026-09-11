@@ -1,0 +1,19 @@
+{{ define "main" }}
+<article class="post">
+  <header class="post-head">
+    <p class="post-kicker">{{ .Section }}</p>
+    <h1>{{ .Title }}</h1>
+    <p class="post-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006年1月2日" }}</time></p>
+  </header>
+
+  <!-- 広告枠（記事上部）：ASP・AdSenseのタグをここに貼る -->
+
+  <div class="post-body">
+    {{ .Content }}
+  </div>
+
+  <!-- 広告枠（記事下部）：ASP・AdSenseのタグをここに貼る -->
+
+  <p class="backlink"><a href="{{ "/" | relURL }}">← 記事一覧へ戻る</a></p>
+</article>
+{{ end }}
