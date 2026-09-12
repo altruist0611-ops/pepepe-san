@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article class="post profile-page">
+  <header class="post-head">
+    <h1>{{ .Title }}</h1>
+  </header>
+
+  <div class="post-body">
+    {{ .Content }}
+  </div>
+
+  <p class="backlink"><a href="{{ "/" | relURL }}">← 記事一覧へ戻る</a></p>
+</article>
+{{ end }}
