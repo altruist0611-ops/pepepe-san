@@ -15,11 +15,16 @@
 <body>
 <header class="sitehead">
   <div class="wrap sitehead-inner">
-    <a class="brand" href="{{ "/" | relURL }}">
-      <span class="brand-mark">帖</span>
-      <span class="brand-name">{{ .Site.Title }}</span>
-    </a>
-    <p class="brand-tagline">訪問系障害福祉サービスの開業・運営を、行政書士の実務目線で</p>
+    <div class="sitehead-top">
+      <a class="brand" href="{{ "/" | relURL }}">
+        <span class="brand-mark">帖</span>
+        <span class="brand-name">{{ .Site.Title }}</span>
+      </a>
+      <nav class="sitenav">
+        <a href="{{ "/profile/" | relURL }}">執筆者：{{ .Site.Params.author }}について</a>
+      </nav>
+    </div>
+    <p class="brand-tagline">行政書士として指定申請を支援し、自らも訪問介護事業所を経営する立場から、開業・運営の実務を発信</p>
   </div>
 </header>
 <main class="wrap">
