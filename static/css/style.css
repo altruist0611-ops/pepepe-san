@@ -180,6 +180,14 @@ main.wrap{ padding-block:44px 60px; }
   border-radius:8px;
   padding:12px 14px;
 }
+.post-body img{
+  width:120px;
+  height:120px;
+  border-radius:20px;
+  display:block;
+  margin:0 0 24px;
+  box-shadow:var(--shadow);
+}
 
 .backlink{ margin-top:2.5em; font-size:14px; }
 
