@@ -1,18 +1,6 @@
 {{ define "main" }}
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": {{ .Title | jsonify }},
-    "description": {{ .Description | jsonify }},
-    "datePublished": "{{ .Date.Format "2006-01-02" }}",
-    "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
-    "author": { "@type": "Person", "name": {{ .Site.Params.author | jsonify }} },
-    "publisher": { "@type": "Organization", "name": {{ .Site.Title | jsonify }} },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ .Permalink }}" },
-    "image": "{{ "images/og-image.png" | absURL }}"
-  }
-</script>
+{{ $ld := dict "@context" "https://schema.org" "@type" "BlogPosting" "headline" .Title "description" .Description "datePublished" (.Date.Format "2006-01-02") "dateModified" (.Lastmod.Format "2006-01-02") "author" (dict "@type" "Person" "name" .Site.Params.author) "publisher" (dict "@type" "Organization" "name" .Site.Title) "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink) "image" (absURL "images/og-image.png") }}
+<script type="application/ld+json">{{ $ld | jsonify | safeJS }}</script>
 <article class="post">
   <header class="post-head">
     <p class="post-kicker">{{ .Section }}</p>
@@ -20,7 +8,7 @@
     <p class="post-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006年1月2日" }}</time></p>
   </header>
 
-  <!-- 広告枠（記事上部）：ASP・AdSenseのタグをここに貼る -->
+<!-- 広告枠（記事上部）：ASP・AdSenseのタグをここに貼る -->
 
   <div class="post-body">
     {{ .Content }}
