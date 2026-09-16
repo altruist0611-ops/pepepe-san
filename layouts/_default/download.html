@@ -1,0 +1,18 @@
+{{ define "main" }}
+<article class="post download-page">
+  <header class="post-head">
+    <h1>{{ .Title }}</h1>
+  </header>
+
+  <div class="post-body">
+    {{ .Content }}
+  </div>
+
+  <div class="download-box">
+    <p class="product-note">下記のボタンからファイル一式（ZIP形式）をダウンロードしてください。</p>
+    <a class="download-button" href="{{ .Params.downloadUrl | relURL }}">{{ .Params.downloadLabel }}</a>
+  </div>
+
+  <p class="backlink"><a href="{{ "/" | relURL }}">← ふくしノート トップへ戻る</a></p>
+</article>
+{{ end }}
