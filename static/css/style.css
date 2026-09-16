@@ -217,6 +217,8 @@ main.wrap{ padding-block:44px 60px; }
   color:var(--ink-soft);
 }
 .sitefoot .fine{ max-width:68ch; }
+.sitefoot .sns-links{ margin-block:8px; }
+.sitefoot .sns-links a{ color:var(--ink-soft); }
 
 @media (max-width:480px){
   .sitehead{ padding-block:20px; }
