@@ -222,7 +222,7 @@ main.wrap{ padding-block:44px 60px; }
   display:flex;
   align-items:center;
   flex-wrap:wrap;
-  gap:12px;
+  gap:8px;
 }
 .sitefoot .sns-links .sns-label{ color:var(--ink-soft); }
 .sitefoot .sns-links a{
@@ -233,8 +233,8 @@ main.wrap{ padding-block:44px 60px; }
 }
 .sitefoot .sns-links a:hover{ color:var(--indigo-soft); }
 .sitefoot .sns-links svg{
-  width:18px;
-  height:18px;
+  width:14px;
+  height:14px;
   fill:currentColor;
 }
 
