@@ -26,4 +26,11 @@ layout: "profile"
 
 制度は改正が多く、自治体によって運用が異なることも少なくありません。少しでも、開業準備に追われる方の力になれればと思っています。
 
+## SNSでも発信しています
+
+- Instagram: [@fukushinote_pesan](https://www.instagram.com/fukushinote_pesan/)
+- TikTok: [@pesan_fukushi](https://www.tiktok.com/@pesan_fukushi)
+- YouTube: [@fukushinote_pesan](https://www.youtube.com/@fukushinote_pesan)
+- note: [alz_20250611](https://note.com/alz_20250611)
+
 *本ページの内容は一般的な情報を整理したものであり、個別の事業所についての法的な助言ではありません。実際の手続き・判断については最新の公表情報をご確認のうえ、専門家にご相談ください。*
