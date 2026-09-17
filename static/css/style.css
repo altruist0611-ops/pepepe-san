@@ -168,10 +168,20 @@ main.wrap{ padding-block:44px 60px; }
 
 /* homepage promo banner */
 .promo-banner{ margin:0 0 40px; }
+.promo-banner-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:16px;
+}
+.store-list-grid{ margin-top:28px; }
+@media (max-width:720px){
+  .promo-banner-grid{ grid-template-columns:1fr; }
+}
 .promo-banner-link{
 display:flex;
 flex-direction:column;
 gap:6px;
+height:100%;
 background:linear-gradient(135deg, var(--vermillion) 0%, #8f2e24 100%);
 color:#fff;
 border-radius:14px;
