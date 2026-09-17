@@ -1,0 +1,25 @@
+{{ define "main" }}
+<article class="post">
+  <header class="post-head">
+    <p class="post-kicker">雛形テンプレート販売</p>
+    <h1>{{ .Title }}</h1>
+  </header>
+
+  <div class="post-body">
+    {{ .Content }}
+  </div>
+
+  <section class="promo-banner promo-banner-grid store-list-grid">
+    {{ range .Pages }}
+    <a class="promo-banner-link" href="{{ .RelPermalink }}">
+      <span class="promo-banner-tag">{{ .Params.price }}</span>
+      <span class="promo-banner-title">{{ .Title }}</span>
+      <span class="promo-banner-desc">{{ .Description }}</span>
+      <span class="promo-banner-cta">詳しく見る →</span>
+    </a>
+    {{ end }}
+  </section>
+
+  <p class="backlink"><a href="{{ "/" | relURL }}">← 記事一覧へ戻る</a></p>
+</article>
+{{ end }}
