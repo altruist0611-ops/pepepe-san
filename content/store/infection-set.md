@@ -4,7 +4,7 @@ description: "介護事業所向けの、感染症の予防及びまん延の防
 url: "/store/infection-set/"
 layout: "product"
 price: "8,800円（税込）"
-buyUrl: "https://buy.stripe.com/test_4gM5kv8eZ3xq8hteep97G03"
+buyUrl: "https://buy.stripe.com/14A5kveHw7ITcuZfSA7N603"
 buyLabel: "購入する（クレジットカード決済）"
 ---
 

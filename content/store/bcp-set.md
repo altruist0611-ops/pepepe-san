@@ -4,7 +4,7 @@ description: "障害福祉サービス事業所向けの、感染症BCP・自然
 url: "/store/bcp-set/"
 layout: "product"
 price: "11,000円（税込）"
-buyUrl: "https://buy.stripe.com/test_4gMbIT7aV5FydBN7Q197G01"
+buyUrl: "https://buy.stripe.com/7sYfZ90QG4wHcuZ9uc7N601"
 buyLabel: "購入する（クレジットカード決済）"
 ---
 

@@ -4,7 +4,7 @@ description: "障害福祉サービス事業所向けの、虐待防止に関す
 url: "/store/gyakutai-boushi-set/"
 layout: "product"
 price: "11,000円（税込）"
-buyUrl: "https://buy.stripe.com/test_9B6eV5gLv7NGgNZ6LX97G00"
+buyUrl: "https://buy.stripe.com/9B68wH2Yd3damRdKs7N600"
 buyLabel: "購入する（クレジットカード決済）"
 ---
 

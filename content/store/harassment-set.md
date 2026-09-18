@@ -4,7 +4,7 @@ description: "介護事業所向けの、ハラスメント防止に関する指
 url: "/store/harassment-set/"
 layout: "product"
 price: "8,800円（税込）"
-buyUrl: "https://buy.stripe.com/test_fZu28j3YJ2tm7dp1rD97G02"
+buyUrl: "https://buy.stripe.com/cNi7sDgPEgfpOMhbCk7N602"
 buyLabel: "購入する（クレジットカード決済）"
 ---
 
