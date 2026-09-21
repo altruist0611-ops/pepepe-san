@@ -8,13 +8,13 @@
     <p class="post-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006年1月2日" }}</time></p>
   </header>
 
-<!-- 広告枠（記事上部）：ASP・AdSenseのタグをここに貼る -->
+{{ if eq .Section "posts" }}{{ partial "ad.html" "article_top" }}{{ end }}
 
   <div class="post-body">
     {{ .Content }}
   </div>
 
-  <!-- 広告枠（記事下部）：ASP・AdSenseのタグをここに貼る -->
+  {{ if eq .Section "posts" }}{{ partial "ad.html" "article_end" }}{{ end }}
 
   <p class="backlink"><a href="{{ "/" | relURL }}">← 記事一覧へ戻る</a></p>
 </article>
