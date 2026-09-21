@@ -6,8 +6,10 @@
 # article_top  ... 記事の冒頭（本文の上）
 # article_end  ... 記事の末尾（本文の下）
 home:
-  html: ""
+  html: |
+    <a href="https://px.a8.net/svt/ejp?a8mat=4BCAZA+8645MA+3SPO+9FMXR5" rel="nofollow"><img border="0" width="300" height="250" alt="" src="https://www21.a8.net/svt/bgt?aid=260914582494&wid=001&eno=01&mid=s00000017718057046000&mc=1"></a><img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4BCAZA+8645MA+3SPO+9FMXR5" alt="">
 article_top:
   html: ""
 article_end:
-  html: ""
+  html: |
+    <a href="https://px.a8.net/svt/ejp?a8mat=4BCAZA+8645MA+3SPO+9FMXR5" rel="nofollow"><img border="0" width="300" height="250" alt="" src="https://www21.a8.net/svt/bgt?aid=260914582494&wid=001&eno=01&mid=s00000017718057046000&mc=1"></a><img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4BCAZA+8645MA+3SPO+9FMXR5" alt="">
