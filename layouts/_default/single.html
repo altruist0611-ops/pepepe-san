@@ -2,6 +2,7 @@
 {{ $ld := dict "@context" "https://schema.org" "@type" "BlogPosting" "headline" .Title "description" .Description "datePublished" (.Date.Format "2006-01-02") "dateModified" (.Lastmod.Format "2006-01-02") "author" (dict "@type" "Person" "name" .Site.Params.author) "publisher" (dict "@type" "Organization" "name" .Site.Title) "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink) "image" (absURL "images/og-image.png") }}
 <script type="application/ld+json">{{ $ld | jsonify | safeJS }}</script>
 <article class="post">
+{{ if eq .Section "posts" }}{{ partial "ad_side.html" . }}{{ end }}
   <header class="post-head">
     <p class="post-kicker">{{ .Section }}</p>
     <h1>{{ .Title }}</h1>
