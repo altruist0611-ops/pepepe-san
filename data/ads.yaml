@@ -1,3 +1,9 @@
+# side ... PC画面(幅1440px以上)で、記事の右側の余白に追従表示（スマホでは非表示）
+side:
+  html: |
+    <!-- MAF Rakuten Widget FROM HERE -->
+    <script type="text/javascript">MafRakutenWidgetParam=function() { return{ size:'300x250',design:'slide',recommend:'on',auto_mode:'on',a_id:'5803178', border:'off'};};</script><script type="text/javascript" src="https://dn.msmstatic.com/site/rakuten/widget.js"></script>
+    <!-- MAF Rakuten Widget TO HERE -->
 # 広告（A8.net・もしもアフィリエイト等）の貼り付け場所です。
 # html: | の下に、ASPの管理画面でコピーした広告コード(HTMLタグ)をそのまま貼ります。
 # 空のままなら、その場所には何も表示されません。
