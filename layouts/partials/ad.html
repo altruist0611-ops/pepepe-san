@@ -1,0 +1,8 @@
+{{- $slot := index site.Data.ads . -}}
+{{- if and $slot $slot.html -}}
+<aside class="ad-slot" style="margin:32px 0;padding:16px;border:1px solid #e2e0d8;border-radius:8px;background:#fbfaf6;text-align:center;">
+<p style="margin:0 0 10px;font-size:12px;color:#777;letter-spacing:.05em;">PR（広告）</p>
+<div>{{ $slot.html | safeHTML }}</div>
+</aside>
+<style>.ad-slot img{max-width:100%;height:auto}.ad-slot a{word-break:break-all}</style>
+{{- end -}}
