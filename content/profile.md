@@ -4,7 +4,7 @@ description: "「ふくしノート」を書いているぺーさんの自己紹
 layout: "profile"
 ---
 
-![peesan](/images/pepe-san-icon.jpg)
+![peesan](/images/pepe-san-icon-v2.jpg)
 
 はじめまして、ぺーさんと申します。このブログ「ふくしノート」を書いています。
 
