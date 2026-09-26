@@ -1,9 +1,17 @@
 {{ define "main" }}
 <section class="hero">
-  <p class="eyebrow">障害福祉サービス開業ガイド</p>
-  <h1>{{ .Site.Title }}</h1>
-  <p class="hero-lede">{{ .Site.Params.description }}</p>
-  <p class="hero-author"><a href="{{ "/profile/" | relURL }}">書き手：{{ .Site.Params.author }}（行政書士／訪問介護事業所経営者）について</a></p>
+  <div class="hero-top">
+    <div class="hero-text">
+      <p class="eyebrow">障害福祉サービス開業ガイド</p>
+      <h1>{{ .Site.Title }}</h1>
+      <p class="hero-lede">{{ .Site.Params.description }}</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="{{ "/store/" | relURL }}">雛形テンプレートを見る</a>
+        <a class="btn btn-outline" href="{{ "/profile/" | relURL }}">書き手について</a>
+      </div>
+    </div>
+    <img class="hero-visual" src="{{ "images/pepe-san-icon-v2.jpg" | relURL }}" alt="{{ .Site.Params.author }}" width="120" height="120">
+  </div>
 </section>
 
 <section class="promo-banner promo-banner-grid">
@@ -43,16 +51,30 @@
 
 <section class="poststream">
   <h2 class="sectiontitle">記事一覧</h2>
-  <ol class="posts">
+  <ol class="postgrid">
     {{ range where .Site.RegularPages "Section" "posts" }}
-    <li class="postrow">
+    <li class="postcard">
       <a href="{{ .RelPermalink }}">
-        <span class="postdate">{{ .Date.Format "2006.01.02" }}</span>
+        <span class="postcard-top">
+          <span class="pill">{{ .Section }}</span>
+          <span class="postdate">{{ .Date.Format "2006.01.02" }}</span>
+        </span>
         <span class="posttitle">{{ .Title }}</span>
         <span class="postexcerpt">{{ .Description }}</span>
+        <span class="postcard-more">続きを読む →</span>
       </a>
     </li>
     {{ end }}
   </ol>
+</section>
+
+<section class="author-band">
+  <img class="author-band-avatar" src="{{ "images/pepe-san-icon-v2.jpg" | relURL }}" alt="{{ .Site.Params.author }}">
+  <div class="author-band-text">
+    <p class="author-band-name">{{ .Site.Params.author }}</p>
+    <p class="author-band-role">行政書士／訪問介護事業所経営者</p>
+    <p class="author-band-desc">障害福祉サービスの指定申請支援と、自ら運営する訪問介護事業所の実務経験をもとに、現場のリアルを発信しています。</p>
+  </div>
+  <a class="btn btn-outline-light" href="{{ "/profile/" | relURL }}">プロフィールを見る →</a>
 </section>
 {{ end }}
