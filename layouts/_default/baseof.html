@@ -14,6 +14,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | relURL }}" title="{{ .Site.Title }}">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%232E4A3B'/%3E%3Crect x='6' y='4' width='13' height='17' rx='2' fill='none' stroke='%23F2EEE6' stroke-width='1.6'/%3E%3Ccircle cx='6' cy='7.5' r='0.9' fill='%23F2EEE6'/%3E%3Ccircle cx='6' cy='12' r='0.9' fill='%23F2EEE6'/%3E%3Ccircle cx='6' cy='16.5' r='0.9' fill='%23F2EEE6'/%3E%3Cline x1='9' y1='9' x2='16' y2='9' stroke='%23DB7B52' stroke-width='1.4' stroke-linecap='round'/%3E%3Cline x1='9' y1='13' x2='16' y2='13' stroke='%23DB7B52' stroke-width='1.4' stroke-linecap='round'/%3E%3Cline x1='9' y1='17' x2='14' y2='17' stroke='%23DB7B52' stroke-width='1.4' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
 <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 <meta name="google-site-verification" content="lk5VecVvfOeI2rNPqYztxdDP3TeX-RtsKU4qDrxzAL4" />
@@ -31,7 +32,7 @@ gtag('config', 'G-1276RG1FVT');
 <div class="wrap sitehead-inner">
 <div class="sitehead-top">
 <a class="brand" href="{{ "/" | relURL }}">
-<span class="brand-mark">帖</span>
+<span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="5" y="3" width="13" height="18" rx="2" stroke="#DB7B52" stroke-width="1.6"></rect><circle cx="5" cy="7" r="0.9" fill="#DB7B52"></circle><circle cx="5" cy="12" r="0.9" fill="#DB7B52"></circle><circle cx="5" cy="17" r="0.9" fill="#DB7B52"></circle><line x1="8" y1="9" x2="15" y2="9" stroke="#DB7B52" stroke-width="1.4" stroke-linecap="round"></line><line x1="8" y1="13" x2="15" y2="13" stroke="#DB7B52" stroke-width="1.4" stroke-linecap="round"></line><line x1="8" y1="17" x2="13" y2="17" stroke="#DB7B52" stroke-width="1.4" stroke-linecap="round"></line><path d="M17 2 C20 1 22 3 21 6 C19 7.5 17 6 17 2 Z" fill="#839C8B"></path></svg></span>
 <span class="brand-name">{{ .Site.Title }}</span>
 </a>
 <nav class="sitenav">
@@ -47,6 +48,10 @@ gtag('config', 'G-1276RG1FVT');
 </main>
 <footer class="sitefoot">
 <div class="wrap">
+<div class="foot-brand">
+<span class="foot-mark"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="5" y="3" width="13" height="18" rx="2" stroke="#F2EEE6" stroke-width="1.6"></rect><circle cx="5" cy="7" r="0.9" fill="#F2EEE6"></circle><circle cx="5" cy="12" r="0.9" fill="#F2EEE6"></circle><circle cx="5" cy="17" r="0.9" fill="#F2EEE6"></circle><line x1="8" y1="9" x2="15" y2="9" stroke="#F2EEE6" stroke-width="1.4" stroke-linecap="round"></line><line x1="8" y1="13" x2="15" y2="13" stroke="#F2EEE6" stroke-width="1.4" stroke-linecap="round"></line><line x1="8" y1="17" x2="13" y2="17" stroke="#F2EEE6" stroke-width="1.4" stroke-linecap="round"></line><path d="M17 2 C20 1 22 3 21 6 C19 7.5 17 6 17 2 Z" fill="#DB7B52"></path></svg></span>
+<span class="foot-name">{{ .Site.Title }}</span>
+</div>
 <p>執筆：<a href="{{ "/profile/" | relURL }}">{{ .Site.Params.author }}</a> ｜ <a href="{{ "/operator/" | relURL }}">運営者情報</a> ｜ <a href="{{ "/tokushoho/" | relURL }}">特定商取引法に基づく表記</a> ｜ <a href="{{ "/privacy/" | relURL }}">プライバシーポリシー</a></p>
 <p class="sns-links">
 <span class="sns-label">SNSでも発信中：</span>

@@ -1,13 +1,17 @@
 {{ define "main" }}
 <section class="poststream">
   <h2 class="sectiontitle">{{ .Title }}</h2>
-  <ol class="posts">
+  <ol class="postgrid">
     {{ range .Pages }}
-    <li class="postrow">
+    <li class="postcard">
       <a href="{{ .RelPermalink }}">
-        <span class="postdate">{{ .Date.Format "2006.01.02" }}</span>
+        <span class="postcard-top">
+          <span class="pill">{{ .Section }}</span>
+          <span class="postdate">{{ .Date.Format "2006.01.02" }}</span>
+        </span>
         <span class="posttitle">{{ .Title }}</span>
         <span class="postexcerpt">{{ .Description }}</span>
+        <span class="postcard-more">続きを読む →</span>
       </a>
     </li>
     {{ end }}

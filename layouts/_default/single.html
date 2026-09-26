@@ -4,9 +4,15 @@
 <article class="post">
 {{ if eq .Section "posts" }}{{ partial "ad_side.html" . }}{{ end }}
   <header class="post-head">
-    <p class="post-kicker">{{ .Section }}</p>
+    <span class="pill">{{ .Section }}</span>
     <h1>{{ .Title }}</h1>
-    <p class="post-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006年1月2日" }}</time></p>
+    <div class="post-byline">
+      <img class="post-byline-avatar" src="{{ "images/pepe-san-icon-v2.jpg" | relURL }}" alt="{{ .Site.Params.author }}">
+      <span class="post-byline-text">
+        <span class="post-byline-name">{{ .Site.Params.author }}</span>
+        <time class="post-byline-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006年1月2日" }}</time>
+      </span>
+    </div>
   </header>
 
 {{ if eq .Section "posts" }}{{ partial "ad.html" "article_top" }}{{ end }}
