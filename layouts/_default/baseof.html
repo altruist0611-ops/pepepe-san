@@ -11,7 +11,7 @@
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:image" content="{{ "images/og-image.png" | absURL }}">
+<meta property="og:image" content="{{ with .Params.ogImage }}{{ . | absURL }}{{ else }}{{ "images/og-image.png" | absURL }}{{ end }}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | relURL }}" title="{{ .Site.Title }}">
@@ -37,7 +37,7 @@ gtag('config', 'G-1276RG1FVT');
 <span class="brand-name">{{ .Site.Title }}</span>
 </a>
 <nav class="sitenav">
-<a class="nav-cta" href="{{ "/store/" | relURL }}">雛形テンプレート販売</a>
+<a class="nav-cta" href="{{ "/store/" | relURL }}">雛形・研修資料の販売</a>
 <a href="{{ "/profile/" | relURL }}">執筆者：{{ .Site.Params.author }}について</a>
 </nav>
 </div>

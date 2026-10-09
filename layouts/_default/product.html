@@ -1,14 +1,16 @@
 {{ define "main" }}
 <article class="post product-page">
   <header class="post-head">
-    <p class="post-kicker">雛形テンプレート販売</p>
+    <p class="post-kicker">{{ with .Params.kicker }}{{ . }}{{ else }}雛形テンプレート販売{{ end }}</p>
     <h1>{{ .Title }}</h1>
   </header>
 
   <div class="product-buybox">
     <p class="product-price">{{ .Params.price }}</p>
-    <a class="buy-button" href="{{ .Params.buyUrl }}" target="_blank" rel="noopener">{{ .Params.buyLabel }}</a>
+    {{ if .Params.buyUrl }}<a class="buy-button" href="{{ .Params.buyUrl }}" target="_blank" rel="noopener">{{ .Params.buyLabel }}</a>
     <p class="product-note">お支払い完了後、その場でダウンロードページをご案内します（クレジットカード決済／Stripe）。</p>
+    {{ else }}<span class="buy-button buy-button-disabled">販売準備中</span>
+    <p class="product-note">現在、販売開始の準備を進めています。もうしばらくお待ちください。</p>{{ end }}
   </div>
 
   <div class="post-body">
@@ -17,7 +19,7 @@
 
   <div class="product-buybox product-buybox-bottom">
     <p class="product-price">{{ .Params.price }}</p>
-    <a class="buy-button" href="{{ .Params.buyUrl }}" target="_blank" rel="noopener">{{ .Params.buyLabel }}</a>
+    {{ if .Params.buyUrl }}<a class="buy-button" href="{{ .Params.buyUrl }}" target="_blank" rel="noopener">{{ .Params.buyLabel }}</a>{{ else }}<span class="buy-button buy-button-disabled">販売準備中</span>{{ end }}
     <p class="product-note">ご購入前に <a href="{{ "/tokushoho/" | relURL }}">特定商取引法に基づく表記</a> もご確認ください。</p>
   </div>
 
