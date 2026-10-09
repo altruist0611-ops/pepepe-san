@@ -403,6 +403,14 @@ color:#fff;
   box-shadow:var(--shadow);
 }
 
+.product-page .post-body img{
+  width:100%;
+  max-width:720px;
+  height:auto;
+  border-radius:12px;
+  margin:0 0 20px;
+}
+
 .backlink{ margin-top:2.5em; font-size:14px; }
 
 /* ad slots */
