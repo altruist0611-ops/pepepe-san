@@ -7,7 +7,7 @@ category: "kenshu"
 kicker: "法定研修 研修資料セット"
 weight: 6
 price: "11,000円（税込）"
-buyUrl: ""
+buyUrl: "https://buy.stripe.com/aFa4grgPE0gr52x8q87N60b"
 buyLabel: "購入する（クレジットカード決済）"
 ogImage: "/images/samples/kenshu-jiko_01.jpg"
 ---

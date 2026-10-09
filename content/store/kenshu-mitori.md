@@ -7,7 +7,7 @@ category: "kenshu"
 kicker: "法定研修 研修資料セット"
 weight: 13
 price: "11,000円（税込）"
-buyUrl: ""
+buyUrl: "https://buy.stripe.com/8x28wHbvkgfp9iNgWE7N60i"
 buyLabel: "購入する（クレジットカード決済）"
 ogImage: "/images/samples/kenshu-mitori_01.jpg"
 ---

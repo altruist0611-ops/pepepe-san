@@ -7,7 +7,7 @@ category: "kenshu"
 kicker: "法定研修 研修資料セット"
 weight: 9
 price: "11,000円（税込）"
-buyUrl: ""
+buyUrl: "https://buy.stripe.com/28EeV5bvk5AL3Ytayg7N60e"
 buyLabel: "購入する（クレジットカード決済）"
 ogImage: "/images/samples/kenshu-ninchisho-shogai_01.jpg"
 ---

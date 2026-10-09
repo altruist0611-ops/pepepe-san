@@ -7,7 +7,7 @@ category: "kenshu"
 kicker: "法定研修 研修資料セット"
 weight: 10
 price: "11,000円（税込）"
-buyUrl: ""
+buyUrl: "https://buy.stripe.com/7sY6ozeHwaV57aFdKs7N60f"
 buyLabel: "購入する（クレジットカード決済）"
 ogImage: "/images/samples/kenshu-hijo-saigai_01.jpg"
 ---

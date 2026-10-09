@@ -6,8 +6,8 @@ layout: "product"
 category: "kasan"
 kicker: "特定事業所加算 個別研修シリーズ"
 weight: 55
-price: "8,800円（税込）"
-buyUrl: ""
+price: "16,500円（税込）"
+buyUrl: "https://buy.stripe.com/3cI7sDczo2oz3YtgWE7N60s"
 buyLabel: "購入する（クレジットカード決済）"
 ogImage: "/images/samples/kasan-kenshu-1nen_01.jpg"
 ---

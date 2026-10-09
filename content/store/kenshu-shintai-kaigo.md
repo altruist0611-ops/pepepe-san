@@ -7,7 +7,7 @@ category: "kenshu"
 kicker: "法定研修 研修資料セット"
 weight: 12
 price: "11,000円（税込）"
-buyUrl: ""
+buyUrl: "https://buy.stripe.com/cNieV5fLA6EP8eJ9uc7N60h"
 buyLabel: "購入する（クレジットカード決済）"
 ogImage: "/images/samples/kenshu-shintai-kaigo_01.jpg"
 ---

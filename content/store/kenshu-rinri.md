@@ -7,7 +7,7 @@ category: "kenshu"
 kicker: "法定研修 研修資料セット"
 weight: 8
 price: "11,000円（税込）"
-buyUrl: ""
+buyUrl: "https://buy.stripe.com/9B6fZ9dDs9R152xgWE7N60d"
 buyLabel: "購入する（クレジットカード決済）"
 ogImage: "/images/samples/kenshu-rinri_01.jpg"
 ---

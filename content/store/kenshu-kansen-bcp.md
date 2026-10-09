@@ -7,7 +7,7 @@ category: "kenshu"
 kicker: "法定研修 研修資料セット"
 weight: 4
 price: "11,000円（税込）"
-buyUrl: ""
+buyUrl: "https://buy.stripe.com/9B6cMX2YO2oz66B9uc7N609"
 buyLabel: "購入する（クレジットカード決済）"
 ogImage: "/images/samples/kenshu-kansen-bcp_01.jpg"
 ---

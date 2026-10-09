@@ -7,7 +7,7 @@ category: "kenshu"
 kicker: "法定研修 研修資料セット"
 weight: 2
 price: "11,000円（税込）"
-buyUrl: ""
+buyUrl: "https://buy.stripe.com/28E6oz42S6EPamRdKs7N607"
 buyLabel: "購入する（クレジットカード決済）"
 ogImage: "/images/samples/kenshu-harassment_01.jpg"
 ---
