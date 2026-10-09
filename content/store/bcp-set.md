@@ -3,6 +3,8 @@ title: "障害福祉サービス業務継続計画（BCP）ひな形セット"
 description: "障害福祉サービス事業所向けの、感染症BCP・自然災害BCP・BCP様式集（全18シート）の3点セット雛形です。厚生労働省のガイドライン・作成支援ガイドの項目構成に準拠し、現役の行政書士・訪問介護事業所運営者が実務で使用している内容をもとに作成しています。"
 url: "/store/bcp-set/"
 layout: "product"
+category: "hinagata"
+weight: 101
 price: "11,000円（税込）"
 buyUrl: "https://buy.stripe.com/7sYfZ90QG4wHcuZ9uc7N601"
 buyLabel: "購入する（クレジットカード決済）"

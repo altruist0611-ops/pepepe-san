@@ -3,6 +3,8 @@ title: "喀痰吸引等業務　都道府県届出書類・様式一式セット
 description: "喀痰吸引等（特定行為）事業者登録に必要な業務方法書・指示書・計画書・報告書・各種様式など15点の雛形セットです。現役の行政書士・訪問介護事業所運営者が実務で使用している内容をもとに作成しています。"
 url: "/store/kakutan-kyuuin-todokede-set/"
 layout: "product"
+category: "hinagata"
+weight: 105
 price: "19,800円（税込）"
 buyUrl: "https://buy.stripe.com/8x29AL9nc8MX8eJ0XG7N604"
 buyLabel: "購入する（クレジットカード決済）"

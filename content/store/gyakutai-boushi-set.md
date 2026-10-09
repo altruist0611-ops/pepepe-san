@@ -3,6 +3,8 @@ title: "障害者虐待防止・身体拘束適正化　指針＋マニュアル
 description: "障害福祉サービス事業所向けの、虐待防止に関する指針・マニュアル・やむを得ない身体拘束に関する説明書兼同意書の3点セット雛形です。現役の行政書士・訪問介護事業所運営者が実務で使用している内容をもとに作成しています。"
 url: "/store/gyakutai-boushi-set/"
 layout: "product"
+category: "hinagata"
+weight: 102
 price: "11,000円（税込）"
 buyUrl: "https://buy.stripe.com/9B68wH2YOd3damRdKs7N600"
 buyLabel: "購入する（クレジットカード決済）"

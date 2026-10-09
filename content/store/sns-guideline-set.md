@@ -3,6 +3,8 @@ title: "SNS利用ガイドライン＋誓約書セット"
 description: "福祉事業所向けの、SNS等の利用に関するガイドラインと誓約書の2点セット雛形です。利用者の無断撮影・SNS投稿の防止に。現役の行政書士・訪問介護事業所運営者が実務の視点で作成しています。"
 url: "/store/sns-guideline-set/"
 layout: "product"
+category: "hinagata"
+weight: 106
 price: "5,500円（税込）"
 buyUrl: "https://buy.stripe.com/bJe7sDeHwe7heD7eOw7N605"
 buyLabel: "購入する（クレジットカード決済）"

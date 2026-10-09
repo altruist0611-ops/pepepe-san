@@ -3,6 +3,8 @@ title: "ハラスメント防止対策　指針＋マニュアルセット"
 description: "介護事業所向けの、ハラスメント防止に関する指針・マニュアルの2点セット雛形です。現役の行政書士・訪問介護事業所運営者が実務で使用している内容をもとに作成しています。"
 url: "/store/harassment-set/"
 layout: "product"
+category: "hinagata"
+weight: 103
 price: "8,800円（税込）"
 buyUrl: "https://buy.stripe.com/cNi7sDgPEgfp0MhbCk7N602"
 buyLabel: "購入する（クレジットカード決済）"

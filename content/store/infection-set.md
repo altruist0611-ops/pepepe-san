@@ -3,6 +3,8 @@ title: "感染症予防・まん延防止　指針＋マニュアルセット"
 description: "介護事業所向けの、感染症の予防及びまん延の防止に関する指針・マニュアルの2点セット雛形です。現役の行政書士・訪問介護事業所運営者が実務で使用している内容をもとに作成しています。"
 url: "/store/infection-set/"
 layout: "product"
+category: "hinagata"
+weight: 104
 price: "8,800円（税込）"
 buyUrl: "https://buy.stripe.com/14A5kveHw7ITcuZfSA7N603"
 buyLabel: "購入する（クレジットカード決済）"
