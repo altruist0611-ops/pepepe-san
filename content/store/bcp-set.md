@@ -12,6 +12,16 @@ buyLabel: "購入する（クレジットカード決済）"
 
 このセットは、現役の行政書士であり、自らも訪問系の障害福祉サービス事業所（居宅介護・重度訪問介護・同行援護・行動援護）を運営している運営者が、実際の事業所で使用している文書をもとに作成した雛形です。運営指導で確認される必須記載事項を満たした構成になっています。
 
+## サンプル画像（記入例）
+
+![bcp-set サンプル画像0](/images/samples/bcp-set_00_overview.png)
+
+![bcp-set サンプル画像1](/images/samples/bcp-set_01_detail.png)
+
+![bcp-set サンプル画像2](/images/samples/bcp-set_02_detail.png)
+
+![bcp-set サンプル画像3](/images/samples/bcp-set_03_detail.png)
+
 ## こんな方におすすめです
 
 - これから障害福祉サービスの指定申請を行う、または開業したばかりで、BCPが未整備
