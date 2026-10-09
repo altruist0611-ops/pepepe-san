@@ -12,6 +12,16 @@ buyLabel: "購入する（クレジットカード決済）"
 
 このセットは、現役の行政書士であり、自らも訪問介護事業所（ケアステーションあむおる）を運営している運営者が、実際の事業所で使用している文書をもとに作成した雛形です。運営指導で確認される必須記載事項を満たした構成になっています。
 
+## サンプル画像（記入例）
+
+![gyakutai-boushi-set サンプル画像0](/images/samples/gyakutai-boushi-set_00_overview.png)
+
+![gyakutai-boushi-set サンプル画像1](/images/samples/gyakutai-boushi-set_01_detail.png)
+
+![gyakutai-boushi-set サンプル画像2](/images/samples/gyakutai-boushi-set_02_detail.png)
+
+![gyakutai-boushi-set サンプル画像3](/images/samples/gyakutai-boushi-set_03_detail.png)
+
 ## こんな方におすすめです
 
 - これから障害福祉サービスの指定申請を行う、または開業したばかりで、虐待防止関連の書類が未整備
