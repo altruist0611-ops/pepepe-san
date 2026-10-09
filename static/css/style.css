@@ -568,3 +568,10 @@ color:#fff;
   .post-body th{ white-space:normal; width:38%; }
   .post-body th,.post-body td{ padding:8px; font-size:13.5px; }
 }
+
+/* store categories / soon */
+.store-cat-title{ font-family:"Shippori Mincho",serif; font-size:21px; color:var(--green); margin:44px 0 6px; padding-top:8px; border-top:1px solid var(--line); }
+.store-cat-lead{ font-size:14px; color:var(--ink-soft); margin:0 0 4px; }
+.store-cat-title + .store-cat-lead + .store-list-grid{ margin-top:16px; }
+.promo-banner-link.is-soon{ background:linear-gradient(135deg, #7E9A88 0%, #2E4A3B 100%); box-shadow:0 10px 24px -12px rgba(46,74,59,0.45); }
+.buy-button-disabled, .buy-button-disabled:hover{ background:#B9B3A9; box-shadow:none; cursor:default; }
