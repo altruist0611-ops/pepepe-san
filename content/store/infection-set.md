@@ -12,6 +12,16 @@ buyLabel: "購入する（クレジットカード決済）"
 
 このセットは、現役の行政書士であり、自らも訪問介護事業所（ケアステーションあむおる）を運営している運営者が、実際の事業所で使用している文書をもとに作成した雛形です。感染管理体制（委員会の設置・運営）から、標準的感染予防策、発生時の対応まで、運営指導で確認される内容を一通り網羅した構成になっています。
 
+## サンプル画像（記入例）
+
+![infection-set サンプル画像0](/images/samples/infection-set_00_overview.png)
+
+![infection-set サンプル画像1](/images/samples/infection-set_01_detail.png)
+
+![infection-set サンプル画像2](/images/samples/infection-set_02_detail.png)
+
+![infection-set サンプル画像3](/images/samples/infection-set_03_detail.png)
+
 ## こんな方におすすめです
 
 - これから訪問介護・通所介護等の指定申請を行う、または開業したばかりで、感染症対策関連の書類が未整備
