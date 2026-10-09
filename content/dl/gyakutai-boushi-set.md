@@ -4,7 +4,9 @@ description: "「障害者虐待防止・身体拘束適正化 指針＋マニ�
 url: "/dl/gyakutai-boushi-set/"
 layout: "download"
 noindex: true
-downloadUrl: "/downloads/gyakutai-boushi-set.zip"
+sitemap:
+  disable: true
+downloadUrl: "/downloads/gyakutai-boushi-set-aec7f579f7.zip"
 downloadLabel: "ファイル一式をダウンロード（ZIP）"
 ---
 

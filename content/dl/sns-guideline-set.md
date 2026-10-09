@@ -4,7 +4,9 @@ description: "「SNS利用ガイドライン＋誓約書セット」のダウン
 url: "/dl/sns-guideline-set/"
 layout: "download"
 noindex: true
-downloadUrl: "/downloads/sns-guideline-set.zip"
+sitemap:
+  disable: true
+downloadUrl: "/downloads/sns-guideline-set-45cca61fd3.zip"
 downloadLabel: "ファイル一式をダウンロード（ZIP）"
 ---
 

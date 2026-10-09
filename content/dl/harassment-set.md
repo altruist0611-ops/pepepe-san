@@ -4,7 +4,9 @@ description: "「ハラスメント防止対策　指針＋マニュアルセッ
 url: "/dl/harassment-set/"
 layout: "download"
 noindex: true
-downloadUrl: "/downloads/harassment-set.zip"
+sitemap:
+  disable: true
+downloadUrl: "/downloads/harassment-set-fc4b6645a1.zip"
 downloadLabel: "ファイル一式をダウンロード（ZIP）"
 ---
 

@@ -4,7 +4,9 @@ description: "「喀痰吸引等業務　都道府県届出書類・様式一式
 url: "/dl/kakutan-kyuuin-todokede-set/"
 layout: "download"
 noindex: true
-downloadUrl: "/downloads/kakutan-kyuuin-todokede-set.zip"
+sitemap:
+  disable: true
+downloadUrl: "/downloads/kakutan-kyuuin-todokede-set-ffe714e6e3.zip"
 downloadLabel: "ファイル一式をダウンロード（ZIP）"
 ---
 

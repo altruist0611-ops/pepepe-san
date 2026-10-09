@@ -4,7 +4,9 @@ description: "「障害福祉サービス業務継続計画（BCP）ひな形セ
 url: "/dl/bcp-set/"
 layout: "download"
 noindex: true
-downloadUrl: "/downloads/bcp-set.zip"
+sitemap:
+  disable: true
+downloadUrl: "/downloads/bcp-set-9beb2ea72f.zip"
 downloadLabel: "ファイル一式をダウンロード（ZIP）"
 ---
 

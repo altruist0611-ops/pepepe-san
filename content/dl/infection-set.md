@@ -4,7 +4,9 @@ description: "「感染症予防・まん延防止　指針＋マニュアルセ
 url: "/dl/infection-set/"
 layout: "download"
 noindex: true
-downloadUrl: "/downloads/infection-set.zip"
+sitemap:
+  disable: true
+downloadUrl: "/downloads/infection-set-d56b0e497b.zip"
 downloadLabel: "ファイル一式をダウンロード（ZIP）"
 ---
 
