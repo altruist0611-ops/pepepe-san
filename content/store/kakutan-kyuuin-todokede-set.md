@@ -14,6 +14,18 @@ buyLabel: "購入する（クレジットカード決済）"
 
 このセットは、現役の行政書士であり、自らも訪問系の障害福祉サービス事業所（ケアステーションあむおる）を運営し、実際に喀痰吸引等事業者登録を行った運営者が、実務で使用している書類一式をもとに作成した雛形です。
 
+## サンプル画像（記入例）
+
+![kakutan-kyuuin-todokede-set サンプル画像0](/images/samples/kakutan-kyuuin-todokede-set_00_overview.png)
+
+![kakutan-kyuuin-todokede-set サンプル画像1](/images/samples/kakutan-kyuuin-todokede-set_01_detail.png)
+
+![kakutan-kyuuin-todokede-set サンプル画像2](/images/samples/kakutan-kyuuin-todokede-set_02_detail.png)
+
+![kakutan-kyuuin-todokede-set サンプル画像3](/images/samples/kakutan-kyuuin-todokede-set_03_detail.png)
+
+![kakutan-kyuuin-todokede-set サンプル画像4](/images/samples/kakutan-kyuuin-todokede-set_04_detail.png)
+
 ## こんな方におすすめです
 
 - 重度訪問介護などで人工呼吸器を使用する利用者からの依頼が増えており、喀痰吸引等に対応できる体制を整えたい
