@@ -4,7 +4,7 @@ description: "福祉事業所向けの、SNS等の利用に関するガイドラ
 url: "/store/sns-guideline-set/"
 layout: "product"
 price: "5,500円（税込）"
-buyUrl: "【StripeのURLをここに】"
+buyUrl: "https://buy.stripe.com/bJe7sDeHwe7heD7eOw7N605"
 buyLabel: "購入する（クレジットカード決済）"
 ---
 
