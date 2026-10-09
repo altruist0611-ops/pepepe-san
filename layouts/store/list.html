@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article class="post">
   <header class="post-head">
-    <p class="post-kicker">雛形テンプレート販売</p>
+    <p class="post-kicker">ふくしノートの販売資料</p>
     <h1>{{ .Title }}</h1>
   </header>
 
@@ -9,16 +9,28 @@
     {{ .Content }}
   </div>
 
+  {{ $cats := slice
+      (dict "key" "kenshu" "title" "法定研修 研修資料セット" "lead" "運営基準で求められる研修や事業所内研修の定番テーマを、資料・理解度確認テスト・受講記録簿の3点セットで。読むだけで研修が完結します。")
+      (dict "key" "kasan" "title" "特定事業所加算 個別研修 研修資料セット" "lead" "居宅介護・重度訪問介護・行動援護の特定事業所加算に対応した、区分別の個別研修資料です。")
+      (dict "key" "hinagata" "title" "指針・マニュアル・様式の雛形テンプレート" "lead" "実際の事業所で使用している文書をもとにした、Word・Excelで編集できる雛形です。") }}
+  {{ range $cats }}
+  {{ $key := .key }}
+  {{ $pages := where $.Pages "Params.category" $key }}
+  {{ if $pages }}
+  <h2 class="store-cat-title" id="{{ $key }}">{{ .title }}</h2>
+  <p class="store-cat-lead">{{ .lead }}</p>
   <section class="promo-banner promo-banner-grid store-list-grid">
-    {{ range .Pages }}
-    <a class="promo-banner-link" href="{{ .RelPermalink }}">
-      <span class="promo-banner-tag">{{ .Params.price }}</span>
+    {{ range $pages.ByWeight }}
+    <a class="promo-banner-link{{ if not .Params.buyUrl }} is-soon{{ end }}" href="{{ .RelPermalink }}">
+      <span class="promo-banner-tag">{{ .Params.price }}{{ if not .Params.buyUrl }}　販売準備中{{ end }}</span>
       <span class="promo-banner-title">{{ .Title }}</span>
       <span class="promo-banner-desc">{{ .Description }}</span>
       <span class="promo-banner-cta">詳しく見る →</span>
     </a>
     {{ end }}
   </section>
+  {{ end }}
+  {{ end }}
 
   <p class="backlink"><a href="{{ "/" | relURL }}">← 記事一覧へ戻る</a></p>
 </article>
