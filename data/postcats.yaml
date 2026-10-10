@@ -1,0 +1,47 @@
+# 記事カテゴリーの割り当て（slug を各カテゴリーの posts に並べる）
+# ここに載っていない記事は「その他」に入ります
+- key: kaigyo
+  short: 開業・指定申請
+  title: 開業・指定申請
+  desc: 指定申請の要件・書類・スケジュールから、指定日を迎えるまでの準備
+  posts: [shitei-shinsei-gaiyou, shitei-yoken-check, hyogo-shitei-schedule, kaigyo-shikin-hojokin, service-teikyo-sekininsha-kakuho, shitei-shinseisho-kakikata, jitsumu-keiken-shomeisho-oin, shitei-shinsei-todokede, shinsei-kara-shitei-made, shiteibi-kara-hajimaru-jitsumu, kaigyo-junbi-bihin-kankyo]
+- key: unei
+  short: 運営・請求
+  title: 運営・請求・運営指導
+  desc: 国保連請求、記録の残し方、運営指導への備えなど、開業後の毎月の実務
+  posts: [kokuhoren-seikyu-itsukara, jitchishido-shorui-seibi, shitei-koushin-kiroku, unei-shidou-shorui-fubi-top5, unei1-nenme-calendar, unei2-kokuhoren-seikyu, unei3-jisseki-kiroku, unei4-keikaku-monitoring]
+- key: taisei
+  short: 体制整備
+  title: 虐待防止・BCP・感染症などの体制整備
+  desc: 義務化された指針・委員会・研修・訓練を、事業所でどう整えるか
+  posts: [bcp-sakusei, gyakutai-boushi-taisei, harassment-taisei, kansen-taisaku, rule1-gyakutai-shishin, rule2-gyakutai-iinkai, rule3-shintai-kosoku, rule4-bcp-kunren, sns-riyou-rule]
+- key: kasan
+  short: 加算・処遇改善
+  title: 加算・処遇改善
+  desc: 加算届の期限、処遇改善加算の取得と配分、キャリアパス・研修計画
+  posts: [kasan-todokede-kigen, shogu-kaizen-kasan-taimingu, career-path-kenshu-keikaku, shogu-kaizen-haibun-yakuin]
+- key: genba
+  short: 現場の管理
+  title: 現場の管理・困ったとき
+  desc: サ責の業務、シフト、新人育成、医療行為や保険外の依頼への対応
+  posts: [kanri-sabu-ichinichi, kanri-shift-kekkin, kanri-shinjin-ikusei, konna1-iryo-kouii, konna2-hoken-gai-irai, kakutan-kyuuin-iryouteki-care]
+- key: roumu
+  short: 労務・採用
+  title: 労務・採用
+  desc: 雇用前の手続きや、求人票の休日・休暇・給与欄の読み方
+  posts: [staff-koyou-mae-roumu, roumu-kyujitsu-kyuuka, roumu-shukyu-futsuka, roumu-kyuyo-kotei-zangyo]
+- key: news
+  short: 判例・ニュース
+  title: 判例・ニュース
+  desc: 介護・障害福祉に関わる裁判例、週刊ニュースまとめ、報酬改定の動き
+  posts: [hanrei-houmonkaigo-agarikamachi-tentou, hanrei-shuro-a-jigyosho-heisa-kaiko, hanrei-grouphome-mansion, news-20260926, news-20261003, gyoseishoshi-muhikaku-news, r9-houshu-kaitei-ronten]
+- key: kaigyoki
+  short: 開業記
+  title: 訪問介護開業記
+  desc: 現場未経験から訪問介護事業所を立ち上げた、ぺーさん自身の記録
+  posts: [kaigyoki-hajimari, kaigyoki-risshi-hen, kaigyoki-kaisha-setsuritsu, kaigyoki-jimusho-junbi, kaigyoki-shitei-shinsei, kaigyoki-staff-trouble, kaigyoki-kaigyo-3kagetsu, kaigyoki-unei-shido-yotei, kaigyoki-unei-shido-kanryo, hangaikeika-furikaeri]
+- key: sonota
+  short: その他
+  title: その他
+  desc: 上記のカテゴリーに当てはまらない記事
+  posts: []
