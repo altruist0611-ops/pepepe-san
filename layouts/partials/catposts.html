@@ -1,0 +1,11 @@
+{{- /* returns posts (newest first) belonging to the category dict passed in */ -}}
+{{- $cat := . -}}
+{{- $all := where site.RegularPages "Section" "posts" -}}
+{{- $out := slice -}}
+{{- if eq $cat.key "sonota" -}}
+  {{- $known := slice -}}{{- range site.Data.postcats -}}{{- $known = $known | append .posts -}}{{- end -}}
+  {{- range $all -}}{{- if not (in $known (path.Base .RelPermalink)) -}}{{- $out = $out | append . -}}{{- end -}}{{- end -}}
+{{- else -}}
+  {{- range $all -}}{{- if in $cat.posts (path.Base .RelPermalink) -}}{{- $out = $out | append . -}}{{- end -}}{{- end -}}
+{{- end -}}
+{{- return $out -}}

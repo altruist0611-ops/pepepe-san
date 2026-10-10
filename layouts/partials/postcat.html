@@ -1,0 +1,5 @@
+{{- $slug := path.Base .RelPermalink -}}
+{{- $found := dict -}}
+{{- range site.Data.postcats -}}{{- if in .posts $slug -}}{{- $found = . -}}{{- end -}}{{- end -}}
+{{- if not $found.key -}}{{- range site.Data.postcats -}}{{- if eq .key "sonota" -}}{{- $found = . -}}{{- end -}}{{- end -}}{{- end -}}
+{{- return $found -}}

@@ -1,0 +1,12 @@
+{{ $c := partial "postcat.html" . }}
+<li class="postcard">
+  <a href="{{ .RelPermalink }}">
+    <span class="postcard-top">
+      <span class="pill">{{ $c.short }}</span>
+      <span class="postdate">{{ .Date.Format "2006.01.02" }}</span>
+    </span>
+    <span class="posttitle">{{ .Title }}</span>
+    <span class="postexcerpt">{{ .Description }}</span>
+    <span class="postcard-more">続きを読む →</span>
+  </a>
+</li>
