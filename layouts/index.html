@@ -40,7 +40,7 @@
 <section class="poststream">
   <h2 class="sectiontitle">最新の記事</h2>
   <ol class="postgrid">
-    {{ range first 5 (where .Site.RegularPages "Section" "posts") }}{{ partial "postcard.html" . }}{{ end }}
+    {{ range first 6 (where .Site.RegularPages "Section" "posts") }}{{ partial "postcard.html" . }}{{ end }}
   </ol>
 </section>
 
