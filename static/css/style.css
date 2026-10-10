@@ -575,3 +575,7 @@ color:#fff;
 .store-cat-title + .store-cat-lead + .store-list-grid{ margin-top:16px; }
 .promo-banner-link.is-soon{ background:linear-gradient(135deg, #7E9A88 0%, #2E4A3B 100%); box-shadow:0 10px 24px -12px rgba(46,74,59,0.45); }
 .buy-button-disabled, .buy-button-disabled:hover{ background:#B9B3A9; box-shadow:none; cursor:default; }
+
+/* homepage: 3 category banners */
+.promo-banner-grid-3{ grid-template-columns:repeat(3,1fr); }
+@media (max-width:900px){ .promo-banner-grid-3{ grid-template-columns:1fr; } }
