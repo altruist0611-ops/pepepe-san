@@ -666,3 +666,8 @@ a.pill-link:hover{ opacity:.85; text-decoration:none; }
 .promo-banner-link.is-soon{ background:var(--green-tint); box-shadow:none; border-top-color:var(--green-soft); }
 .catcard-title{ font-weight:900; }
 .poststream + .poststream{ margin-top:44px; }
+
+.brand{ gap:14px; }
+.brand-logo{ width:60px; height:60px; border-radius:50%; object-fit:cover; background:#fff; border:2px solid rgba(255,255,255,0.85); flex-shrink:0; }
+@media (max-width:480px){ .brand-logo{ width:52px; height:52px; } }
+.sitehead-top{ align-items:center; }
