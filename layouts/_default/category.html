@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{ $key := .Params.catkey }}
+{{ $cat := dict }}{{ range site.Data.postcats }}{{ if eq .key $key }}{{ $cat = . }}{{ end }}{{ end }}
+{{ $ps := partial "catposts.html" $cat }}
+<section class="poststream">
+  <p class="post-kicker"><a href="{{ "/category/" | relURL }}">カテゴリー</a></p>
+  <h1 class="sectiontitle cat-pagetitle">{{ $cat.title }}<span class="cat-pagecount">{{ len $ps }}記事</span></h1>
+  <p class="cat-pagedesc">{{ $cat.desc }}</p>
+  <ol class="postgrid">
+    {{ range $ps }}{{ partial "postcard.html" . }}{{ end }}
+  </ol>
+</section>
+<section class="poststream">
+  <h2 class="sectiontitle">ほかのカテゴリー</h2>
+  {{ partial "catgrid.html" $key }}
+</section>
+<p class="backlink"><a href="{{ "/" | relURL }}">← トップへ戻る</a></p>
+{{ end }}

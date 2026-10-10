@@ -4,7 +4,7 @@
 <article class="post">
 {{ if eq .Section "posts" }}{{ partial "ad_side.html" . }}{{ end }}
   <header class="post-head">
-    <span class="pill">{{ .Section }}</span>
+    {{ if eq .Section "posts" }}{{ $c := partial "postcat.html" . }}<a class="pill pill-link" href="{{ printf "/category/%s/" $c.key | relURL }}">{{ $c.short }}</a>{{ end }}
     <h1>{{ .Title }}</h1>
     <div class="post-byline">
       <img class="post-byline-avatar" src="{{ "images/pepe-san-icon-v2.jpg" | relURL }}" alt="{{ .Site.Params.author }}">
@@ -23,6 +23,17 @@
 
   {{ if eq .Section "posts" }}{{ partial "ad.html" "article_end" }}{{ end }}
 
-  <p class="backlink"><a href="{{ "/" | relURL }}">← 記事一覧へ戻る</a></p>
+  {{ if eq .Section "posts" }}
+  {{ $c := partial "postcat.html" . }}{{ $self := .RelPermalink }}
+  {{ $rel := slice }}{{ range partial "catposts.html" $c }}{{ if ne .RelPermalink $self }}{{ $rel = $rel | append . }}{{ end }}{{ end }}
+  {{ if $rel }}
+  <section class="related">
+    <h2 class="sectiontitle">「{{ $c.title }}」の記事</h2>
+    <ol class="postgrid">{{ range first 3 $rel }}{{ partial "postcard.html" . }}{{ end }}</ol>
+    <p class="related-more"><a href="{{ printf "/category/%s/" $c.key | relURL }}">このカテゴリーの記事をすべて見る →</a></p>
+  </section>
+  {{ end }}
+  {{ end }}
+  <p class="backlink"><a href="{{ "/" | relURL }}">← トップへ戻る</a></p>
 </article>
 {{ end }}
