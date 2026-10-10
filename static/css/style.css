@@ -671,3 +671,8 @@ a.pill-link:hover{ opacity:.85; text-decoration:none; }
 .brand-logo{ width:60px; height:60px; border-radius:50%; object-fit:cover; background:#fff; border:2px solid rgba(255,255,255,0.85); flex-shrink:0; }
 @media (max-width:480px){ .brand-logo{ width:52px; height:52px; } }
 .sitehead-top{ align-items:center; }
+
+.brand-logo{ width:88px; height:88px; }
+@media (max-width:480px){ .brand-logo{ width:72px; height:72px; } }
+.foot-brand{ gap:14px; }
+.foot-logo{ width:64px; height:64px; border-radius:50%; object-fit:cover; background:#fff; border:1px solid var(--line); flex-shrink:0; }
