@@ -121,8 +121,8 @@ main.wrap{ padding-block:44px 60px; }
 }
 .hero-text{ flex:1 1 380px; padding-bottom:40px; }
 .hero-visual{
-  flex:0 1 440px;
-  width:440px; max-width:100%;
+  flex:0 1 520px;
+  width:520px; max-width:100%;
   height:auto;
   display:block;
   margin:0 auto;
