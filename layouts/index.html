@@ -6,7 +6,7 @@
       <h1>{{ .Site.Title }}</h1>
       <p class="hero-lede">{{ .Site.Params.description }}</p>
       <div class="hero-cta">
-        <a class="btn btn-primary" href="{{ "/store/" | relURL }}">雛形テンプレートを見る</a>
+        <a class="btn btn-primary" href="{{ "/store/" | relURL }}">雛形・研修資料を見る</a>
         <a class="btn btn-outline" href="{{ "/profile/" | relURL }}">書き手について</a>
       </div>
     </div>
@@ -14,65 +14,39 @@
   </div>
 </section>
 
-<h2 class="sectiontitle">雛形ストア</h2>
-<section class="promo-banner promo-banner-grid">
-  <a class="promo-banner-link" href="{{ "/store/bcp-set/" | relURL }}">
-    <span class="promo-banner-tag">雛形テンプレート販売</span>
-    <span class="promo-banner-title">業務継続計画（BCP）ひな形セット</span>
-    <span class="promo-banner-desc">感染症BCP・自然災害BCP・BCP様式集（全18シート）を、厚労省ガイドラインの構成に準拠した雛形として販売しています</span>
-    <span class="promo-banner-cta">詳しく見る →</span>
+<section class="promo-banner promo-banner-grid promo-banner-grid-3">
+  <a class="promo-banner-link" href="{{ "/store/#kenshu" | relURL }}">
+    <span class="promo-banner-tag">研修資料セット</span>
+    <span class="promo-banner-title">法定研修 研修資料セット（全13テーマ）</span>
+    <span class="promo-banner-desc">虐待防止・ハラスメント・感染症・BCPなど。研修資料・理解度確認テスト・自動採点つき受講記録簿の3点セットで、研修の実施から記録まで完結します</span>
+    <span class="promo-banner-cta">一覧を見る →</span>
   </a>
-  <a class="promo-banner-link" href="{{ "/store/gyakutai-boushi-set/" | relURL }}">
-    <span class="promo-banner-tag">雛形テンプレート販売</span>
-    <span class="promo-banner-title">障害者虐待防止・身体拘束適正化　指針＋マニュアル＋同意書セット</span>
-    <span class="promo-banner-desc">現役行政書士・訪問介護事業所運営者が実務で使用している指針・マニュアル・同意書の雛形を販売しています</span>
-    <span class="promo-banner-cta">詳しく見る →</span>
+  <a class="promo-banner-link" href="{{ "/store/#kasan" | relURL }}">
+    <span class="promo-banner-tag">研修資料セット</span>
+    <span class="promo-banner-title">特定事業所加算 個別研修シリーズ（全6区分）</span>
+    <span class="promo-banner-desc">居宅介護・重度訪問介護・行動援護の特定事業所加算に対応。管理者・サ責・経験年数別の個別研修を、区分ごとのセットでご用意しています</span>
+    <span class="promo-banner-cta">一覧を見る →</span>
   </a>
-  <a class="promo-banner-link" href="{{ "/store/harassment-set/" | relURL }}">
-    <span class="promo-banner-tag">雛形テンプレート販売</span>
-    <span class="promo-banner-title">ハラスメント防止対策　指針＋マニュアルセット</span>
-    <span class="promo-banner-desc">2026年10月のカスハラ対策義務化にも対応。職場内・介護現場の両方のハラスメントをカバーした指針・マニュアルの雛形を販売しています</span>
-    <span class="promo-banner-cta">詳しく見る →</span>
-  </a>
-  <a class="promo-banner-link" href="{{ "/store/infection-set/" | relURL }}">
-    <span class="promo-banner-tag">雛形テンプレート販売</span>
-    <span class="promo-banner-title">感染症予防・まん延防止　指針＋マニュアルセット</span>
-    <span class="promo-banner-desc">令和6年4月に完全義務化された感染症対策に対応。感染管理体制・研修訓練・発生時対応をカバーした指針・マニュアルの雛形を販売しています</span>
-    <span class="promo-banner-cta">詳しく見る →</span>
-  </a>
-  <a class="promo-banner-link" href="{{ "/store/kakutan-kyuuin-todokede-set/" | relURL }}">
-    <span class="promo-banner-tag">雛形テンプレート販売</span>
-    <span class="promo-banner-title">喀痰吸引等業務　都道府県届出書類・様式一式セット（15点）</span>
-    <span class="promo-banner-desc">喀痰吸引等（特定行為）事業者登録に必要な業務方法書・指示書・計画書・報告書など15点の雛形を、記入例つきで販売しています</span>
-    <span class="promo-banner-cta">詳しく見る →</span>
-  </a>
-  <a class="promo-banner-link" href="{{ "/store/sns-guideline-set/" | relURL }}">
-    <span class="promo-banner-tag">NEW｜雛形テンプレート販売</span>
-    <span class="promo-banner-title">SNS利用ガイドライン＋誓約書セット</span>
-    <span class="promo-banner-desc">利用者さんの無断撮影・SNS投稿を防ぐルールづくりに。ガイドラインと誓約書の2点セットを、記入例つきで販売しています</span>
-    <span class="promo-banner-cta">詳しく見る →</span>
+  <a class="promo-banner-link" href="{{ "/store/#hinagata" | relURL }}">
+    <span class="promo-banner-tag">雛形テンプレート</span>
+    <span class="promo-banner-title">指針・マニュアル・様式の雛形テンプレート（全{{ len (where (where .Site.RegularPages "Section" "store") "Params.category" "hinagata") }}種）</span>
+    <span class="promo-banner-desc">虐待防止・ハラスメント・感染症・BCP・喀痰吸引・SNS利用など。実際の事業所で使用している文書をもとにした、Word・Excelで編集できる雛形です</span>
+    <span class="promo-banner-cta">一覧を見る →</span>
   </a>
 </section>
 
 {{ partial "ad.html" "home" }}
 
 <section class="poststream">
-  <h2 class="sectiontitle">新着記事</h2>
+  <h2 class="sectiontitle">最新の記事</h2>
   <ol class="postgrid">
-    {{ range where .Site.RegularPages "Section" "posts" }}
-    <li class="postcard">
-      <a href="{{ .RelPermalink }}">
-        <span class="postcard-top">
-          <span class="pill">{{ .Section }}</span>
-          <span class="postdate">{{ .Date.Format "2006.01.02" }}</span>
-        </span>
-        <span class="posttitle">{{ .Title }}</span>
-        <span class="postexcerpt">{{ .Description }}</span>
-        <span class="postcard-more">続きを読む →</span>
-      </a>
-    </li>
-    {{ end }}
+    {{ range first 5 (where .Site.RegularPages "Section" "posts") }}{{ partial "postcard.html" . }}{{ end }}
   </ol>
+</section>
+
+<section class="poststream">
+  <h2 class="sectiontitle">カテゴリーから探す</h2>
+  {{ partial "catgrid.html" "" }}
 </section>
 
 <section class="author-band">
