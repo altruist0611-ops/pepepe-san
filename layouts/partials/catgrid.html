@@ -1,13 +1,15 @@
 {{- $current := . -}}
-<div class="catgrid">
+<div class="cattiles">
   {{ range site.Data.postcats }}
   {{ $ps := partial "catposts.html" . }}
   {{ if and $ps (ne .key $current) }}
-  <a class="catcard" href="{{ printf "/category/%s/" .key | relURL }}">
-    <span class="catcard-head"><span class="catcard-title">{{ .title }}</span><span class="catcard-count">{{ len $ps }}記事</span></span>
-    <span class="catcard-desc">{{ .desc }}</span>
-    <span class="catcard-list">{{ range first 3 $ps }}<span class="catcard-item">{{ .Title | truncate 34 "…" }}</span>{{ end }}</span>
-    <span class="catcard-more">すべて見る →</span>
+  <a class="cattile cattile-{{ .color }}" href="{{ printf "/category/%s/" .key | relURL }}">
+    <span class="cattile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="{{ .icon }}"/></svg></span>
+    <span class="cattile-body">
+      <span class="cattile-title">{{ .title }}</span>
+      <span class="cattile-count">{{ len $ps }}記事</span>
+    </span>
+    <span class="cattile-arrow">›</span>
   </a>
   {{ end }}
   {{ end }}
