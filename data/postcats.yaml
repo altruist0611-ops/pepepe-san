@@ -1,46 +1,64 @@
 # 記事カテゴリーの割り当て（slug を各カテゴリーの posts に並べる）
 # ここに載っていない記事は「その他」に入ります
 - key: kaigyo
+  icon: "M8,12H16V14H8V12M10,20H6V4H13V9H18V12.1L20,10.1V8L14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H10V20M8,18H12.1L13,17.1V16H8V18M20.2,13C20.3,13 20.5,13.1 20.6,13.2L21.9,14.5C22.1,14.7 22.1,15.1 21.9,15.3L20.9,16.3L18.8,14.2L19.8,13.2C19.9,13.1 20,13 20.2,13M20.2,16.9L14.1,23H12V20.9L18.1,14.8L20.2,16.9Z"
+  color: green
   short: 開業・指定申請
   title: 開業・指定申請
   desc: 指定申請の要件・書類・スケジュールから、指定日を迎えるまでの準備
   posts: [shitei-shinsei-gaiyou, shitei-yoken-check, hyogo-shitei-schedule, kaigyo-shikin-hojokin, service-teikyo-sekininsha-kakuho, shitei-shinseisho-kakikata, jitsumu-keiken-shomeisho-oin, shitei-shinsei-todokede, shinsei-kara-shitei-made, shiteibi-kara-hajimaru-jitsumu, kaigyo-junbi-bihin-kankyo]
 - key: unei
+  icon: "M19,3H14.82C14.25,1.44 12.53,0.64 11,1.2C10.14,1.5 9.5,2.16 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M7,7H17V5H19V19H5V5H7V7M17,11H7V9H17V11M15,15H7V13H15V15Z"
+  color: orange
   short: 運営・請求
   title: 運営・請求・運営指導
   desc: 国保連請求、記録の残し方、運営指導への備えなど、開業後の毎月の実務
   posts: [kokuhoren-seikyu-itsukara, jitchishido-shorui-seibi, shitei-koushin-kiroku, unei-shidou-shorui-fubi-top5, unei1-nenme-calendar, unei2-kokuhoren-seikyu, unei3-jisseki-kiroku, unei4-keikaku-monitoring]
 - key: taisei
+  icon: "M21,11C21,16.55 17.16,21.74 12,23C6.84,21.74 3,16.55 3,11V5L12,1L21,5V11M12,21C15.75,20 19,15.54 19,11.22V6.3L12,3.18L5,6.3V11.22C5,15.54 8.25,20 12,21M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9"
+  color: blue
   short: 体制整備
-  title: 虐待防止・BCP・感染症などの体制整備
+  title: 体制整備（虐待防止・BCPなど）
   desc: 義務化された指針・委員会・研修・訓練を、事業所でどう整えるか
   posts: [bcp-sakusei, gyakutai-boushi-taisei, harassment-taisei, kansen-taisaku, rule1-gyakutai-shishin, rule2-gyakutai-iinkai, rule3-shintai-kosoku, rule4-bcp-kunren, sns-riyou-rule]
 - key: kasan
+  icon: "M16,11.78L20.24,4.45L21.97,5.45L16.74,14.5L10.23,10.75L5.46,19H22V21H2V3H4V17.54L9.5,8L16,11.78Z"
+  color: orange
   short: 加算・処遇改善
   title: 加算・処遇改善
   desc: 加算届の期限、処遇改善加算の取得と配分、キャリアパス・研修計画
   posts: [kasan-todokede-kigen, shogu-kaizen-kasan-taimingu, career-path-kenshu-keikaku, shogu-kaizen-haibun-yakuin]
 - key: genba
+  icon: "M12,5A3.5,3.5 0 0,0 8.5,8.5A3.5,3.5 0 0,0 12,12A3.5,3.5 0 0,0 15.5,8.5A3.5,3.5 0 0,0 12,5M12,7A1.5,1.5 0 0,1 13.5,8.5A1.5,1.5 0 0,1 12,10A1.5,1.5 0 0,1 10.5,8.5A1.5,1.5 0 0,1 12,7M5.5,8A2.5,2.5 0 0,0 3,10.5C3,11.44 3.53,12.25 4.29,12.68C4.65,12.88 5.06,13 5.5,13C5.94,13 6.35,12.88 6.71,12.68C7.08,12.47 7.39,12.17 7.62,11.81C6.89,10.86 6.5,9.7 6.5,8.5C6.5,8.41 6.5,8.31 6.5,8.22C6.2,8.08 5.86,8 5.5,8M18.5,8C18.14,8 17.8,8.08 17.5,8.22C17.5,8.31 17.5,8.41 17.5,8.5C17.5,9.7 17.11,10.86 16.38,11.81C16.5,12 16.63,12.15 16.78,12.3C16.94,12.45 17.1,12.58 17.29,12.68C17.65,12.88 18.06,13 18.5,13C18.94,13 19.35,12.88 19.71,12.68C20.47,12.25 21,11.44 21,10.5A2.5,2.5 0 0,0 18.5,8M12,14C9.66,14 5,15.17 5,17.5V19H19V17.5C19,15.17 14.34,14 12,14M4.71,14.55C2.78,14.78 0,15.76 0,17.5V19H3V17.07C3,16.06 3.69,15.22 4.71,14.55M19.29,14.55C20.31,15.22 21,16.06 21,17.07V19H24V17.5C24,15.76 21.22,14.78 19.29,14.55M12,16C13.53,16 15.24,16.5 16.23,17H7.77C8.76,16.5 10.47,16 12,16Z"
+  color: blue
   short: 現場の管理
   title: 現場の管理・困ったとき
   desc: サ責の業務、シフト、新人育成、医療行為や保険外の依頼への対応
   posts: [kanri-sabu-ichinichi, kanri-shift-kekkin, kanri-shinjin-ikusei, konna1-iryo-kouii, konna2-hoken-gai-irai, kakutan-kyuuin-iryouteki-care]
 - key: roumu
+  icon: "M20,6C20.58,6 21.05,6.2 21.42,6.59C21.8,7 22,7.45 22,8V19C22,19.55 21.8,20 21.42,20.41C21.05,20.8 20.58,21 20,21H4C3.42,21 2.95,20.8 2.58,20.41C2.2,20 2,19.55 2,19V8C2,7.45 2.2,7 2.58,6.59C2.95,6.2 3.42,6 4,6H8V4C8,3.42 8.2,2.95 8.58,2.58C8.95,2.2 9.42,2 10,2H14C14.58,2 15.05,2.2 15.42,2.58C15.8,2.95 16,3.42 16,4V6H20M4,8V19H20V8H4M14,6V4H10V6H14M12,9A2.25,2.25 0 0,1 14.25,11.25C14.25,12.5 13.24,13.5 12,13.5A2.25,2.25 0 0,1 9.75,11.25C9.75,10 10.76,9 12,9M16.5,18H7.5V16.88C7.5,15.63 9.5,14.63 12,14.63C14.5,14.63 16.5,15.63 16.5,16.88V18Z"
+  color: green
   short: 労務・採用
   title: 労務・採用
   desc: 雇用前の手続きや、求人票の休日・休暇・給与欄の読み方
   posts: [staff-koyou-mae-roumu, roumu-kyujitsu-kyuuka, roumu-shukyu-futsuka, roumu-kyuyo-kotei-zangyo]
 - key: news
+  icon: "M2.3,20.28L11.9,10.68L10.5,9.26L9.78,9.97C9.39,10.36 8.76,10.36 8.37,9.97L7.66,9.26C7.27,8.87 7.27,8.24 7.66,7.85L13.32,2.19C13.71,1.8 14.34,1.8 14.73,2.19L15.44,2.9C15.83,3.29 15.83,3.92 15.44,4.31L14.73,5L16.15,6.43C16.54,6.04 17.17,6.04 17.56,6.43C17.95,6.82 17.95,7.46 17.56,7.85L18.97,9.26L19.68,8.55C20.07,8.16 20.71,8.16 21.1,8.55L21.8,9.26C22.19,9.65 22.19,10.29 21.8,10.68L16.15,16.33C15.76,16.72 15.12,16.72 14.73,16.33L14.03,15.63C13.63,15.24 13.63,14.6 14.03,14.21L14.73,13.5L13.32,12.09L3.71,21.7C3.32,22.09 2.69,22.09 2.3,21.7C1.91,21.31 1.91,20.67 2.3,20.28M20,19A2,2 0 0,1 22,21V22H12V21A2,2 0 0,1 14,19H20Z"
+  color: blue
   short: 判例・ニュース
   title: 判例・ニュース
   desc: 介護・障害福祉に関わる裁判例、週刊ニュースまとめ、報酬改定の動き
   posts: [hanrei-houmonkaigo-agarikamachi-tentou, hanrei-shuro-a-jigyosho-heisa-kaiko, hanrei-grouphome-mansion, news-20260926, news-20261003, gyoseishoshi-muhikaku-news, r9-houshu-kaitei-ronten]
 - key: kaigyoki
+  icon: "M17,4V10L15,8L13,10V4H9V20H19V4H17M3,7V5H5V4C5,2.89 5.9,2 7,2H19C20.05,2 21,2.95 21,4V20C21,21.05 20.05,22 19,22H7C5.95,22 5,21.05 5,20V19H3V17H5V13H3V11H5V7H3M5,5V7H7V5H5M5,19H7V17H5V19M5,13H7V11H5V13Z"
+  color: green
   short: 開業記
   title: 訪問介護開業記
   desc: 現場未経験から訪問介護事業所を立ち上げた、ぺーさん自身の記録
   posts: [kaigyoki-hajimari, kaigyoki-risshi-hen, kaigyoki-kaisha-setsuritsu, kaigyoki-jimusho-junbi, kaigyoki-shitei-shinsei, kaigyoki-staff-trouble, kaigyoki-kaigyo-3kagetsu, kaigyoki-unei-shido-yotei, kaigyoki-unei-shido-kanryo, hangaikeika-furikaeri]
 - key: sonota
+  icon: "M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M12,10.5A1.5,1.5 0 0,1 13.5,12A1.5,1.5 0 0,1 12,13.5A1.5,1.5 0 0,1 10.5,12A1.5,1.5 0 0,1 12,10.5M7.5,10.5A1.5,1.5 0 0,1 9,12A1.5,1.5 0 0,1 7.5,13.5A1.5,1.5 0 0,1 6,12A1.5,1.5 0 0,1 7.5,10.5M16.5,10.5A1.5,1.5 0 0,1 18,12A1.5,1.5 0 0,1 16.5,13.5A1.5,1.5 0 0,1 15,12A1.5,1.5 0 0,1 16.5,10.5Z"
+  color: gray
   short: その他
   title: その他
   desc: 上記のカテゴリーに当てはまらない記事
