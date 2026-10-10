@@ -600,3 +600,20 @@ a.pill-link{ text-decoration:none; }
 a.pill-link:hover{ opacity:.85; text-decoration:none; }
 .related{ margin-top:48px; }
 .related-more{ text-align:right; font-size:14px; margin:8px 0 0; }
+
+/* category tiles (v2) */
+.cattiles{ display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin:20px 0 8px; }
+@media (max-width:900px){ .cattiles{ grid-template-columns:repeat(2,1fr); } }
+@media (max-width:520px){ .cattiles{ grid-template-columns:1fr; gap:10px; } }
+.cattile{ display:flex; align-items:center; gap:14px; background:var(--paper-raised); border:1px solid var(--line); border-radius:14px; padding:14px 16px; color:inherit; text-decoration:none; transition:transform .15s, box-shadow .15s, border-color .15s; }
+.cattile:hover{ text-decoration:none; transform:translateY(-2px); box-shadow:var(--shadow); border-color:var(--tile-c); }
+.cattile-icon{ flex:0 0 44px; height:44px; border-radius:12px; display:flex; align-items:center; justify-content:center; background:var(--tile-bg); }
+.cattile-icon svg{ width:24px; height:24px; fill:var(--tile-c); }
+.cattile-body{ display:flex; flex-direction:column; gap:2px; min-width:0; flex:1; }
+.cattile-title{ font-weight:700; font-size:15px; line-height:1.4; color:var(--ink); }
+.cattile-count{ font-size:12px; color:var(--ink-soft); }
+.cattile-arrow{ font-size:22px; color:var(--tile-c); line-height:1; }
+.cattile-green{ --tile-c:#2E4A3B; --tile-bg:#E4ECE6; }
+.cattile-orange{ --tile-c:#C6603A; --tile-bg:#F8E4D9; }
+.cattile-blue{ --tile-c:#3C5A78; --tile-bg:#E2E9F1; }
+.cattile-gray{ --tile-c:#6B6B6B; --tile-bg:#ECEAE6; }
