@@ -601,7 +601,14 @@ color:var(--green);
   .post-body th,.post-body td{ padding:8px; font-size:13.5px; }
 }
 
-.hero .btn-outline{ background:#fff; border-color:#C9D3C6; }
+.hero .btn-outline{ background:var(--paper-raised); border-color:var(--line); }
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]) .btn-primary,
+  :root:not([data-theme="light"]) .download-button{ color:#10180f; }
+  :root:not([data-theme="light"]) .btn-primary:hover,
+  :root:not([data-theme="light"]) .download-button:hover{ color:#10180f; }
+  :root:not([data-theme="light"]) .author-band{ background:#2E4A3B; }
+}
 @media (max-width:620px){
   .hero{ padding:28px 20px 0; border-radius:18px; }
   .hero-text{ padding-bottom:20px; }
